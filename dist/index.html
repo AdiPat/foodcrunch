@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,600" rel="stylesheet">
+    <link href="https://unpkg.com/ionicons@4.4.2/dist/css/ionicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>FoodCrunch</title>
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__logo-box">
+            <img class="header__logo" src="img/chef-midnightblue.png" alt="logo" />
+            <div class="header__logo__info">
+                <span class="header__appname">FoodCrunch</span>
+                <span class="header__tagline">The No.1 Recipe Search Engine</span>
+            </div>
+        </div>
+
+        <div class="search-box">
+            <input type="search" class="search__input" placeholder="Enter Recipe" />
+            <i class="icon ion-ios-search search__icon"></i>
+            <a href="#" class="btn" id="search-btn">Search</a>
+            <a href="#" class="btn btn--ghost">Random</a>
+        </div>
+        <div class="favorites-box">
+            <i class="icon ion-ios-heart favorites-box__icon"></i>
+            <span class="favorites-box__text">Favorites</span>
+        </div>
+    </header>
+    <main class="main-container">
+        <div class="ingredient-box">
+            <!--
+            <span class="ingredient-heading">
+                Ingredients
+            </span>
+-->
+            <div class="ingredient-input-box">
+                <input type="text" class="ingredient-input" placeholder="Filter Ingredients">
+                <i class="icon ion-ios-add-circle ingredient-input-icon"></i>
+            </div>
+
+            <!--
+            <ul class="ingredient-list">
+                <li class="ingredient-list__item"><i class="icon ion-ios-close-circle-outline ingredient-list__item--icon"></i><span class="ingredient-list__item--text">Milk</span></li>
+                <li class="ingredient-list__item"><i class="icon ion-ios-close-circle-outline ingredient-list__item--icon"></i><span class="ingredient-list__item--text">Eggs</span></li>
+                <li class="ingredient-list__item"><i class="icon ion-ios-close-circle-outline ingredient-list__item--icon"></i><span class="ingredient-list__item--text">Chicken</span></li>
+                <li class="ingredient-list__item"><i class="icon ion-ios-close-circle-outline ingredient-list__item--icon"></i><span class="ingredient-list__item--text">Potato</span></li>
+                <li class="ingredient-list__item"><i class="icon ion-ios-close-circle-outline ingredient-list__item--icon"></i><span class="ingredient-list__item--text">Peas</span></li>
+                <li class="ingredient-list__item"><i class="icon ion-ios-close-circle-outline ingredient-list__item--icon"></i><span class="ingredient-list__item--text">Corn</span></li>
+            </ul>
+-->
+        </div>
+        <div class="app-box">
+
+            <div class="recipe-info" data-id="1">
+                <div class="recipe-body">
+                    <div class="recipe-body__graphic">
+                        <img class="recipe-body__graphic-img" src="http://static.food2fork.com/4251_MEDIUM71f0.jpg" alt="Food">
+                    </div>
+                    <div class="recipe-ingredients">
+                        <div class="recipe-header">
+                            <h2 class="recipe-header__title">Chicken cacciatore</h2>
+                            <span class="recipe-header__publisher">BBC Good Food</span>
+                        </div>
+                        <ul class="recipe-ingredients__list">
+                            <li class="recipe-ingredients__item"><i class="icon ion-md-star"></i>1 onion , finely chopped</li>
+                            <li class="recipe-ingredients__item"><i class="icon ion-md-star"></i>2 garlic cloves , crushed</li>
+                            <li class="recipe-ingredients__item"><i class="icon ion-md-star"></i>olive oil</li>
+                            <li class="recipe-ingredients__item"><i class="icon ion-md-star"></i>2 x 400g tins cherry tomatoes</li>
+                            <li class="recipe-ingredients__item"><i class="icon ion-md-star"></i>4 tbsp mascarpone</li>
+                            <li class="recipe-ingredients__item"><i class="icon ion-md-star"></i>a handful basil</li>
+                            <li class="recipe-ingredients__item"><i class="icon ion-md-star"></i>6 chicken breasts , skin on</li>
+                        </ul>
+                        <div class="recipe-body__actions">
+                            <a href="http://www.bbcgoodfood.com/recipes/4251/chicken-cacciatore" class="recipe-srcurl">View Source</a>
+                            <i class="icon ion-ios-heart-empty like-icon"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="search-results-box">
+
+            </div>
+            <!--
+            <div class="search-results">
+                <div class="search-card search-card--selected" data-id="495802">
+                    <h2 class="search-card__title">Chicken cacciatore</h2>
+                    <img class="search-card__img" src="http://static.food2fork.com/4251_MEDIUM71f0.jpg" />
+                </div>
+                <div class="search-card" data-id="495802">
+                    <h2 class="search-card__title">Apple Stuffed Chicken Breast</h2>
+                    <img class="search-card__img" src="http://static.food2fork.com/8530b681.jpg" />
+                </div>
+                
+                <div class="search-card" data-id="495802">
+                    <h2 class="search-card__title">Chicken cacciatore</h2>
+                    <img class="search-card__img" src="http://static.food2fork.com/4251_MEDIUM71f0.jpg" />
+                </div>
+
+                <div class="search-card" data-id="495802">
+                    <h2 class="search-card__title">Strawberry and Balsamic Grilled Chicken Salad</h2>
+                    <img class="search-card__img" src="http://static.food2fork.com/Strawberry2Band2BBalsamic2BGrilled2BChicken2BSalad2B5002B05455fa48e36.jpg" />
+                </div>
+            </div>
+-->
+        </div>
+    </main>
+    <script type="text/javascript" src="dist/bundle.js"></script>
+</body>
+
+</html>
