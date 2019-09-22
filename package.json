@@ -1,6 +1,6 @@
 {
   "name": "foodcrunch",
-  "version": "1.0.0",
+  "version": "1.9.0",
   "description": "Recipe Search Engine",
   "private": true,
   "main": "js/index.js",
