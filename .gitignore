@@ -86,3 +86,5 @@ typings/
 .idea
 .vscode
 .eslintcache
+
+master.txt
