@@ -244,15 +244,21 @@ body {
       font-weight: 600;
       color: #e67e22; }
   .recipe-info .recipe-body {
+    overflow: scroll;
     display: flex; }
+    .recipe-info .recipe-body__graphic-img {
+      width: 40rem; }
     .recipe-info .recipe-body .recipe-ingredients {
       flex: 1;
-      margin-left: 6rem; }
+      margin-left: 6rem;
+      height: 40rem; }
       .recipe-info .recipe-body .recipe-ingredients__list {
         list-style: none;
         font-size: 1.8rem;
         display: flex;
-        flex-direction: column; }
+        flex-direction: column;
+        height: 40rem;
+        overflow: scroll; }
       .recipe-info .recipe-body .recipe-ingredients__item {
         display: flex;
         padding: 3px;

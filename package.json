@@ -2,13 +2,13 @@
   "name": "foodcrunch",
   "version": "1.0.0",
   "description": "Recipe Search Engine",
+  "private": true,
   "main": "js/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack --mode development",
     "build": "webpack --mode production",
     "start": "webpack-dev-server --mode development --open",
-      
     "compile:sass": "node-sass app/scss/main.scss app/css/style.css",
     "debug:sass": "node-sass app/scss/main.scss dist/css/style.css",
     "concat:css": "concat -o css/style.concat.css css/style.css",
